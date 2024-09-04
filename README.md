@@ -5,7 +5,7 @@ This web application, built with React.js, allows users to check the current wea
 ## Features
 - Search for weather conditions of any city worldwide.
 - View current weather details including temperature and weather description.
-- Fetch weather data using the SheCodes Weather API.
+- Fetch weather data using the Weather API.
 
 ## Technologies & Tools
 - React.js
