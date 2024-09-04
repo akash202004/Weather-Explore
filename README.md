@@ -1,6 +1,6 @@
 # React Weather App
 
-This web application, built with React.js, allows users to check the current weather conditions for any city globally. It retrieves weather data through the SheCodes Weather API.
+This web application, built with React.js, allows users to check the current weather conditions for any city globally. It retrieves weather data through the Weather API.
 
 ## Features
 - Search for weather conditions of any city worldwide.
