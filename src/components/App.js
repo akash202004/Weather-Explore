@@ -52,6 +52,7 @@ function App() {
     if (event.type === "click" || (event.type === "keypress" && event.key === "Enter")) {
       setWeather({ ...weather, loading: true });
       const apiKey = process.env.REACT_APP_WEATHER_API_KEY;
+      
       const url = `https://api.shecodes.io/weather/v1/current?query=${query}&key=${apiKey}`;
 
       await axios
