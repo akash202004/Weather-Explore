@@ -101,27 +101,6 @@ function Forecast({ weather }) {
         </div>
         </div>
       </div>
-      {/* <div className="forecast">
-        <h3>5-Day Forecast:</h3>
-        <div className="forecast-container">
-          {forecastData &&
-            forecastData.slice(0, 5).map((day) => (
-              <div className="day" key={day.time}>
-                <p className="day-name">{formatDay(day.time)}</p>
-                {day.condition.icon_url && (
-                  <img
-                    className="day-icon"
-                    src={day.condition.icon_url}
-                    alt={day.condition.description}
-                  />
-                )}
-                <p className="day-temperature">
-                  {Math.round(day.temperature.minimum)}°/ <span>{Math.round(day.temperature.maximum)}°</span>
-                </p>
-              </div>
-            ))}
-        </div>
-      </div> */}
     </div>
   );
 }        
